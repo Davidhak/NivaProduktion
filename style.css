@@ -19,7 +19,7 @@ body{
 .main-title{
     text-align: center;
     margin-top: 4rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     text-shadow: 
     1px 0px 1px #ccc, 0px 1px 1px #eee, 
     2px 1px 1px #ccc, 1px 2px 1px #eee,
@@ -41,6 +41,40 @@ body{
     font-size: 4rem;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.mail {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: .375rem;
+    border: #555 solid;
+    border-width: .125rem;
+    max-width: 200px;
+    text-decoration: none;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.mail a {
+    text-decoration: none;
+}
+
+.mail:not(:disabled):hover {
+    transform: scale(1.05);
+  }
+
+h3{
+    font-size: 2rem;
+    color: #555;
+    font-weight: 300;
+    text-transform: uppercase;
+    
 }
 
 .svg-img{
